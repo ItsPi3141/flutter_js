@@ -26,6 +26,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'io.abner.flutter_js'
+    
     compileSdkVersion 29
 
     kotlinOptions {
